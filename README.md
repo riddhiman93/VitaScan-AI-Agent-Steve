@@ -1,4 +1,4 @@
-READ ME FILE:
+README FILE:
 
 Project Description- VitaScan AI Agent - Steve is a desktop-based health diagnostic tool that leverages Artificial Intelligence to identify potential vitamin deficiencies. Built using Python’s Tkinter for the interface and HuggingFace’s Transformer models, the application utilizes "Zero-Shot Classification." Unlike traditional search engines that require specific keywords, Steve can interpret natural language descriptions—such as "I feel tired and my eyes hurt"—and map them to the most likely nutrient deficiency. Once identified, the agent provides a comprehensive breakdown of the vitamin’s scientific name, biological functions, and dietary sources (both plant and animal) to help the user recover.
 

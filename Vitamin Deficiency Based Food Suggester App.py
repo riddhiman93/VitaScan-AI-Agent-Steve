@@ -61,7 +61,7 @@ def suggestvitamin():
     confidence=result["scores"][0]*100
 
     data=vitamindata[predctn]
-    outlabel=Label(outframe,text="AI Analysis",fg="blue",bg="yellow",font=('Helvetica', 20, 'bold'),padx=0,pady=0).place(x=30,y=20)
+    outlabel=Label(outframe,text="AI Analysis By Steve",fg="blue",bg="yellow",font=('Helvetica', 20, 'bold'),padx=0,pady=0).place(x=30,y=20)
     adrs=Label(outframe,text=f"Hello , I am Steve , I think you have deficiency of {data["vit"]},hope you get well soon!  {"🩺⚕️💪"}",font=('Helvetica', 14),bg="white", fg="red",wraplength=560)
     adrs.place(x=30,y=60)
     sn=Label(outframe,text=f"Scientific Name :{data["sci"]}",font=('Helvetica', 14),bg="yellow", fg="blue",wraplength=560)

@@ -1,4 +1,4 @@
-Project Description- VitaScan AI Agent - Steve is a desktop-based health diagnostic tool that leverages Artificial Intelligence to identify potential vitamin deficiencies. Built using Python’s Tkinter for the interface and HuggingFace’s Transformer models, the application utilizes "Zero-Shot Classification." Unlike traditional search engines that require specific keywords, Steve can interpret natural language descriptions—such as "I feel tired and my eyes hurt"—and map them to the most likely nutrient deficiency. Once identified, the agent provides a comprehensive breakdown of the vitamin’s scientific name, biological functions, and dietary sources (both plant and animal) to help the user recover.
+VitaScan AI Agent - Steve is a desktop-based health diagnostic tool that leverages Artificial Intelligence to identify potential vitamin deficiencies. Built using Python’s Tkinter for the interface and HuggingFace’s Transformer models, the application utilizes "Zero-Shot Classification." Unlike traditional search engines that require specific keywords, Steve can interpret natural language descriptions—such as "I feel tired and my eyes hurt"—and map them to the most likely nutrient deficiency. Once identified, the agent provides a comprehensive breakdown of the vitamin’s scientific name, biological functions, and dietary sources (both plant and animal) to help the user recover.
 
 Objectives:-The primary objective of VitaScan is to bridge the gap between vague physical symptoms and actionable nutritional data. By providing an immediate "AI Analysis," the tool aims to:
 (i)Educate users on the specific roles vitamins play in bodily functions (e.g., Vitamin K’s role in blood clotting).
@@ -21,6 +21,7 @@ Steve relies on two main components: Tkinter (for the window) and Hugging Face T
 Install the following on your computer:
 
 pip install torch torchvision torchaudio
+
 pip install transformers
 
 Note: The first time you run the app, it will download the facebook/bart-large-mnli model (about 1.6GB). You only need to do this once!
